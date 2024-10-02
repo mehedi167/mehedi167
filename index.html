@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #faf7f7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="Email" placeholder="Enter Your Email..">
+
+    <label for="lname">Date of birth</label>
+    <input type="text" id="lname" name="Email" placeholder="Date of birth..">
+
+    <label for="lname">Phone Number</label>
+    <input type="text" id="lname" name="Phone Number" placeholder="Phone Number..">
+
+    <label for="lname">Password</label>
+    <input type="text" id="lname" name="Password" placeholder="Password..">
+
+    <label for="lname">Gender</label>
+    <select id="lname" name="Gender" placeholder="Gender..">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option> 
+    </select>
+
+    <label for="Division names">Division names</label>
+    <select id="Division names" name="Division names">
+      <option value="Dhaka">Dhaka</option>
+      <option value="Barishal">Barishal</option>
+      <option value="Rajshahi">Rajshahi</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Chottogram">Chottogram</option>
+      
+    </select>
+
+
+    
+    <label for="Distric names">Distric names</label>
+    <select id="Distric names" name="Distric names">
+      <option value="Dhaka">Dhaka</option>
+      <option value="Barishal">Barishal</option>
+      <option value="Rajshahi">Rajshahi</option>
+      <option value="Khulna">Khulna</option>
+      <option value="Chottogram">Chottogram</option>
+      
+    </select>
+
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
